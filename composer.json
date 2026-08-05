@@ -1,0 +1,21 @@
+{
+    "name": "bilbofox/deploy",
+    "type": "tool",
+    "description": "My simple deploy tool using FTP transfer and remote HTTP hook.",
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Michal Kvita",
+            "email": "Mikvt@seznam.cz",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bilbofox\\Deploy\\": "src/"
+        }
+    }
+}
